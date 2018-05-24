@@ -1,70 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Daniel's Portfolio</title>
-	<meta charset="utf-8">
-	<meta name="author" content="Daniel Tesanovic">
-	<meta name="description" content="Portfolio of Daniel Tesanovic - logo designer, 3D illustrator and computer scientist. Here you can find the list of the projects I have recently completed."/>
-	<meta name="keywords" content="logo design, 3d illustration, portfolio, stundent, responsive, Branding, graphics design" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Daniel's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Daniel Tesanovic">
+    <meta name="description" content="Portfolio of Daniel Tesanovic - logo designer, 3D illustrator and computer scientist. Here you can find the list of the projects I have recently completed." />
+    <meta name="keywords" content="logo design, 3d illustration, portfolio, stundent, responsive, Branding, graphics design" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-		<link rel="icon"
-	      type="image/png"
-	      href="icon.png">
-</head><body>
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
 
-	<header>
-		<div class="logo">
-			<a href="index.html"><img src="img/logo.png" title="DT" alt="DT"/></a>
-		</div><!-- end logo -->
+<body>
 
-		<div id="menu_icon"></div>
-		<nav>
-			<ul>
-				<li><a href="index.html">Logo Design</a></li>
-				<li><a href="experiments.html">Experiments</a></li>
-				<li><a href="development.html">Development</a></li>
-				<li><a href="contact.html" class="selected">Contact</a></li>
-			</ul>
-		</nav><!-- end navigation menu -->
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" title="DT" alt="DT" /></a>
+        </div>
+        <!-- end logo -->
 
-		<div class="footer clearfix">
-			<ul class="social clearfix">
-				<li><a href="https://github.com/Yomald" class="fb" data-title="Github"></a></li>
-			</ul><!-- end social -->
+        <div id="menu_icon"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Logo Design</a></li>
+                <li><a href="experiments.html">Experiments</a></li>
+                <li><a href="development.html">Development</a></li>
+                <li><a href="contact.html" class="selected">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- end navigation menu -->
 
-			<div class="rights">
-				<p>Copyright © 2018 Daniel Tesanovic.</p>
-			</div><!-- end rights -->
-		</div ><!-- end footer -->
-	</header><!-- end header -->
+        <div class="footer clearfix">
+            <ul class="social clearfix">
+                <li>
+                    <a href="https://github.com/Yomald" class="fb" data-title="Github"></a>
+                </li>
+            </ul>
+            <!-- end social -->
 
-	<section class="main clearfix">
-		<div class="contact">
-		<form action="/action_page.php">
-  Name:<br>
-  <input type="text" name="name"></input>
-  <br>
-  E-mail:<br>
-  <input type="text" name="email" ></input>
-  <br>
-  Message:<br>
-  <textarea type="textbox" name="message" style="height:200px"></textarea>
-  <br><br>
-  <input type="submit" value="Submit" ></input>
-</form>
-</div>
-	</section><!-- end main -->
+            <div class="rights">
+                <p>Copyright © 2018 Daniel Tesanovic.</p>
+            </div>
+            <!-- end rights -->
+        </div>
+        <!-- end footer -->
+    </header>
+    <!-- end header -->
 
+    <section class="main clearfix">
+        <div class="contact">
+            <form name="contact" method="POST" netlify>
+                Name:
+                <br>
+                <input type="text" name="name"></input>
+                <br> E-mail:
+                <br>
+                <input type="text" name="email"></input>
+                <br> Message:
+                <br>
+                <textarea type="textbox" name="message" style="height:200px"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Submit"></input>
+            </form>
+        </div>
+    </section>
+    <!-- end main -->
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<!-- Trigger the Modal -->
-
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Trigger the Modal -->
 
 </body>
+
 </html>
